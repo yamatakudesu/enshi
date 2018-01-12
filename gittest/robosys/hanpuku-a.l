@@ -1,0 +1,5 @@
+(defun iter-period (n)
+  (setq i 0)
+  (while (< i n)
+    (format t ".")
+    (setq i (+ i 1))))
